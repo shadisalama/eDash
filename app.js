@@ -215,7 +215,7 @@ d3.csv("/Data/WPS_Orders.csv").then(function(orderData) {
     // Create Table
     // ===================================
     var tabulate = function (data,columns) {
-      var table = d3.select('#csv-table').append('div').append('table');
+      var table = d3.select('#csv-table')
       var thead = table.append('thead');
       var tbody = table.append('tbody');
       
