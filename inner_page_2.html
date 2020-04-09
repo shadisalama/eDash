@@ -6,13 +6,13 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
 
 
-  <!-- Shadi A -->
-
-  <!-- Shadi A -->
-
-
-
+ 
   <title>eDash | Analytics</title>
+
+   <!-- Shadi A -->
+  <link rel="stylesheet" href="style.css">
+ <!-- Shadi A -->
+
   <!-- MDB icon -->
   <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
   <!-- Font Awesome -->
@@ -91,14 +91,20 @@
 </div>
 
 
-
-<br>
-
 <div>
 
 
 <!-- Shadi A -->
-
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<!-- Add 4 buttons -->
+  <button onclick="update('var1')">Unit (qty)</button>
+  <button onclick="update('var2')">Sales ($)</button>
+  <button onclick="update('var3')">Cost ($)</button>
+  <button onclick="update('var4')">Profit ($)</button>
+  </div><!-- Create a div where the graph will take place -->
+  <div id="my_dataviz"></div>
+  <script src="brandTrend.js"></script>
+  
 <!-- Shadi A -->
 
 
