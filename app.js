@@ -126,7 +126,7 @@ d3.csv("/Data/WPS_Orders.csv").then(function(orderData) {
         .attr('stroke', 'blue')
         .attr('fill', 'blue')
         .attr("height", function(d) { return height - yLinearScale(d.order_amount)});
-
+    
     // Initialize Tooltip
     let toolTip = d3.tip()
     .attr('class', 'tooltip')
@@ -243,7 +243,7 @@ d3.csv("/Data/WPS_Orders.csv").then(function(orderData) {
     
       return table;
     }
-
+    tabulate(orderData,columns);
     // Remove old table and old bars
     // ===============================
     var clearTable = function(){

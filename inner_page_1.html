@@ -7,15 +7,13 @@
 
 
   <!-- Samira -->
-    
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
 <!-- Samira -->
 
 
 
-  <title>eDash | Analytics</title>
+  <title>Material Design for Bootstrap</title>
   <!-- MDB icon -->
   <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
   <!-- Font Awesome -->
@@ -54,9 +52,6 @@
           <a class="nav-link font-weight-normal" href="index.html">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="integrations.html">integrations</a>
-        </li>
-        <li class="nav-item">
           <a class="nav-link" href="pricing.html">Pricing</a>
         </li>
         <li class="nav-item">
@@ -75,10 +70,9 @@
           <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false"><i class="fas fa-wrench"></i><span class="d-none d-xl-inline-block ml-1">Members Account</span></a>
           <div class="dropdown-menu dropdown-primary dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="more.html">Demo</a>
-            <a class="dropdown-item" href="inner_page_2.html">Sales Analytics</a>
-            <a class="dropdown-item" href="inner_page_3.html">Products Analytics</a>
-            <a class="dropdown-item" href="inner_page_1.html">Marketplace Analytics</a>
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Marketplace Analytics</a>
           </div>
         </li>
       </ul>
@@ -105,10 +99,6 @@
 
 <!-- Samira -->
 
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -116,11 +106,6 @@
 <script src="https://d3js.org/d3.v5.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
 <script src="app.js"></script>
-
-<div style="font-size: 14px; width: 100%; height:500px; overflow-y: scroll;">
-  <div><table id='csv-table' class="datatable table table-striped table-bordered"></table></div>
-</div>
-
 
 <!-- Samira -->
 
@@ -137,7 +122,10 @@
 <br><br><br><br><br>
 
 
-
+<div style="font-size: 14px; width: 100%; height:500px; overflow-y: scroll;">
+  <div id='barchart'></div>
+  <div><table id='csv-table' class="datatable table table-striped table-bordered"></table></div>
+</div>
 <!-- Footer -->
 <footer class="page-footer font-small unique-color-dark">
 
@@ -210,16 +198,16 @@
         <h6 class="text-uppercase font-weight-bold">Products</h6>
         <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
         <p>
-          <a href="more.html">Sales Analytics</a>
+          <a href="#!">Sales Analytics</a>
         </p>
         <p>
-          <a href="more.html">Marketing Analytics</a>
+          <a href="#!">Marketing Analytics</a>
         </p>
         <p>
-          <a href="more.html">Profit Analytics</a>
+          <a href="#!">Profit Analytics</a>
         </p>
         <p>
-          <a href="more.html">eDash Pro package</a>
+          <a href="#!">eDash Pro package</a>
         </p>
 
       </div>
@@ -232,16 +220,16 @@
         <h6 class="text-uppercase font-weight-bold">Useful links</h6>
         <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
         <p>
-          <a href="signup.html">Your Account</a>
+          <a href="#!">Your Account</a>
         </p>
         <p>
-          <a href="signup.html">Become an Affiliate</a>
+          <a href="#!">Become an Affiliate</a>
         </p>
         <p>
-          <a href="signup.html">Shipping Rates</a>
+          <a href="#!">Shipping Rates</a>
         </p>
         <p>
-          <a href="signup.html">Help</a>
+          <a href="#!">Help</a>
         </p>
 
       </div>
